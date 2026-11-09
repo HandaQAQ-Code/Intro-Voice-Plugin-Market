@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "updatedAt": "2026-11-09",
+  "plugins": [
+    {
+      "slug": "surge-xt-effects",
+      "name": "Surge XT Effects",
+      "vendor": "Surge Synth Team",
+      "version": "Nightly 2026-11-05",
+      "license": "GPL-3.0",
+      "copyright": "© Surge Synth Team · GPL-3.0 · 源码 https://github.com/surge-synthesizer/surge",
+      "type": "zip",
+      "homepage": "https://surge-synthesizer.github.io/",
+      "download": "https://github.com/surge-synthesizer/surge/releases/download/Nightly/surge-xt-win64-NIGHTLY-2026-11-05-d152d79-pluginsonly.zip",
+      "sha256": "a6e7ca1f1c3da7d4bc4233c4c493ec49b26b0a271b5a8f91777ccc5d72b33d42",
+      "sizeMb": 44.6,
+      "include": [
+        "Surge XT Effects.vst3/"
+      ],
+      "summary": "开源效果器套件：合唱、延迟、混响、失真、EQ 等 20 余种。安装包取自上游官方 Nightly 构建，只解压 Effects 插件。"
+    },
+    {
+      "slug": "loudmax",
+      "name": "LoudMax",
+      "vendor": "Thomas Mundt",
+      "version": "1.37",
+      "license": "免费（捐赠）",
+      "type": "link",
+      "homepage": "https://loudmax.blogspot.com/",
+      "summary": "砖墙限幅器，体积小、延迟低，适合做直播输出保护。"
+    },
+    {
+      "slug": "tdr-nova",
+      "name": "TDR Nova",
+      "vendor": "Tokyo Dawn Records",
+      "version": "2.x",
+      "license": "免费版",
+      "type": "link",
+      "homepage": "https://www.tokyodawn.net/tdr-nova/",
+      "summary": "并行动态均衡器，可做齿音抑制与人声塑形。"
+    },
+    {
+      "slug": "voxengo-span",
+      "name": "Voxengo SPAN",
+      "vendor": "Voxengo",
+      "version": "1.x",
+      "license": "免费",
+      "type": "link",
+      "homepage": "https://www.voxengo.com/product/span/",
+      "summary": "实时频谱分析，用来找共振和低频堆积。"
+    }
+  ]
+}
